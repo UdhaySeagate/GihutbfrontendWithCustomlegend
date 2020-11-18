@@ -1,0 +1,17 @@
+const URL = 'http://localhost:9090/';
+// const URL = 'http://ssc-vm-0727.colo.seagate.com:9090/';
+export const REPO_LIST = `${URL}rest/filters/getRepos`;
+export const GET_ORG = `${URL}rest/filters/getOrg`;
+export const WATCHES = `${URL}rest/cards/getWatchers`;
+export const PEOPLE_STARRED = `${URL}rest/cards/getStargazers`;
+export const TOTAL_CLONES = `${URL}rest/cards/getClones`;
+export const TOTAL_COMMITS = `${URL}rest/cards/getCommits`;
+export const TOTAL_ISSUES = `${URL}rest/cards/getIssues`;
+export const TOTAL_PR_MERGED = `${URL}rest/cards/getPullRequests`;
+export const TOTAL_RELEASE_DOWNLOAD = `${URL}rest/cards/getReleases`;
+export const VISITS = `${URL}rest/cards/getViewDetails`;
+export const ACTION_TAKEN = `${URL}rest/cards/getEvents`;
+export const CONTR_ORG = `${URL}rest/cards/getContributionOrg`;
+export const FORKS = `${URL}rest/cards/getForks`;
+// export const PAGE_VIEWS = `${URL}rest/cards/getViewDetails`;
+// export const ACTIVE_PULL_REQUEST = `${URL}rest/filters/getRepos`;

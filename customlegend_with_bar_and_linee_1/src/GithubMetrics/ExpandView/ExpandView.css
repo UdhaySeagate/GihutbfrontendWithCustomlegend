@@ -1,0 +1,175 @@
+.expanDropDown .buttonbgcolor {
+  background-color: #e0e0e0 !important;
+  border: #e0e0e0;
+}
+.dropdown button {
+  background: #e0e0e0;
+  color: black;
+  border: #e0e0e0;
+}
+.expanDropDown .picky__input::after {
+  color: black;
+}
+.dropdown .btn-primary {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+.headersection {
+  border: 1px solid lightgray;
+  background-color: #e0e0e0;
+}
+.headersection Button {
+  font-size: 14px;
+  color: black;
+}
+.modal-dialog {
+  max-width: 90% !important;
+}
+.containerRepo {
+  border: 1px solid lightgray;
+  margin-top: 15px;
+  margin-bottom: 20px
+}
+.expandRangeView {
+  padding-left: 0px !important;
+}
+.containerRepo .buttonbgcolor {
+  height: 33px;
+}
+.iconalign {
+  margin-top: 6px;
+  padding-right: 12px !important;
+}
+.containerRepo > div {
+  padding: 10px;
+}
+.dropdown button {
+  font-size: 14px;
+}
+.alignDiv {
+  text-align: right !important;
+}
+.dropdown button {
+  width: 160px;
+  height: 33px;
+}
+.dropdown-toggle::after {
+  margin-left: 3.255em !important;
+}
+.chartDiv {
+  border-top: 1px solid lightgray;
+}
+.expanDropDown span {
+  color: black;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.btn-underlineBtn {
+  border-bottom: 4px solid blue !important;
+}
+.expanDropDown div[data-testid='dropdown'] {
+  padding: 0px !important;
+}
+.dropdown-menu a {
+  font-size: 14px;
+}
+.dropdown-item.active {
+  margin: 0px !important;
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+.modal-header button span {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.pointershow {
+  cursor: pointer;
+}
+.chartDiv .c3-texts > .c3-text.remove {
+  fill-opacity: 0 !important;
+}
+
+.repoCount {
+  padding-top: 6px !important;
+}
+.repoCount span {
+  color: black;
+  text-align: left;
+}
+.totaHeade {
+  font-size: 14px;
+  font-weight: bold;
+}
+.totaCount {
+  font-size: 14px;
+  font-weight: bold;
+  color: blue !important;
+}
+.range img {
+  margin-left: 15px;
+  margin-right: 4px;
+}
+.chartDiv .c3-text {
+  font-size: 9px;
+  font-weight: bold;
+  /* transform: translateY(10px); */
+}
+.chartDiv .c3-axis.c3-axis-x .tick text {
+  display: block !important;
+}
+.expandDate{
+  padding-right: 52px !important;
+}
+.noteMessage span{
+  color:black;
+  font-size: 12px;
+}
+.noteMessage{
+  text-align: right;
+}
+.chartDiv .c3-axis-x-label {
+  transform: translate(0px,15px);
+}
+.chartDiv .c3-legend-item{
+  transform: translate(0px,10px);
+}
+.legendss button{
+  display: inline-block;
+  padding: 5px 5px 5px 15px;
+  font: 12px sans-serif;
+  cursor: pointer;
+  position: relative;
+  color: #000;
+  background: none;
+  border: none;
+  transition: all 0.1s linear 0.1s;
+}
+.legendss{
+  max-height: 55px;
+  overflow: auto;
+  text-align: center;
+}
+.legendss button span{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  top: 7px;
+  transition: all 0.1s linear 0.1s;
+}
+.legendss button.mystyle{
+  opacity: 0.15;
+  transition: all 0.1s linear 0.1s;
+}
+.legendss button.fadecolor{
+  opacity: 0.3;
+  transition: all 0.1s linear 0.1s;
+}
+.legendss button:focus{
+  outline: none;
+}

@@ -1,0 +1,113 @@
+.filterDiv {
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 0px 9px 0px #ccc;
+}
+.team {
+  margin-top: 5px;
+  text-align: right;
+}
+select {
+  border: none;
+  color: #2f80ed;
+  font-weight: bold;
+}
+.repo {
+  margin-top: 5px;
+}
+label {
+  padding-right: 10px;
+  font-size: 14px;
+}
+.range {
+  text-align: right;
+}
+/* width */
+.scrollDivset ::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+.scrollDivset ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.scrollDivset ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+.scrollDivset ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.daterangepicker.opensright::before {
+  left: 180px !important;
+  display: none;
+}
+.daterangepicker.opensright:after {
+  left: 181px !important;
+  display: none;
+}
+.repoDropDown span {
+  color: black;
+}
+.buttonbgcolor {
+  background-color: #2f80ed !important;
+  color: white;
+}
+.buttonbgcolor span {
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.picky__dropdown .option.selected,
+.picky__dropdown li.selected {
+  background-color: transparent !important;
+}
+div[data-testid='dropdown'] > div:not(:last-of-type) {
+  display: none;
+}
+div[data-testid='dropdown'] > div:last-of-type {
+  display: block;
+}
+.applyButtonClass {
+  padding: 10px;
+  text-align: right;
+}
+.btndisable {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: lightblue !important;
+}
+.btndisableWidth > div:first-child {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: lightblue !important;
+}
+.btndisable .buttonbgcolor {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: lightblue !important;
+}
+.dateRangeHeader {
+  padding-top: 5px;
+  text-align: right;
+}
+.headerRange {
+  font-weight: bold;
+}
+.dateRangeHeader span {
+  font-size: 12px !important;
+  color: black;
+}
+.rangeValue{
+  color:#0E7CFF !important;
+}
+.dateRangeMain {
+  padding-left: 3px !important;
+}

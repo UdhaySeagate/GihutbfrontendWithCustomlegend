@@ -1,0 +1,101 @@
+.instant {
+  padding: 20px 10px 10px 10px;
+}
+.cards-content {
+  padding: 15px;
+  border-radius: 5px;
+}
+.loaderchart {
+  float: right;
+  margin-top: -15px;
+}
+span {
+  color: white;
+  font-size: 16px;
+}
+.middleValue span:first-child {
+  padding-top: 10px;
+}
+.middleValue span {
+  display: block;
+}
+.bold {
+  font-weight: bold;
+  font-size: 24px;
+}
+.card1 {
+  /* box-shadow: #6454c0 0px 2px 8px 0px; */
+  background-color: #6454c0;
+}
+.card2 {
+  /* box-shadow: #00b8d9 0px 2px 8px 0px; */
+  background-color: #253858;
+}
+.card3 {
+  /* box-shadow: #35b37e 0px 2px 8px 0px; */
+  background-color: #35b37e;
+}
+.card4 {
+  /* box-shadow: #ffab00 0px 2px 8px 0px; */
+  background-color: #ffab00;
+}
+.card5 {
+  /* box-shadow: #de350a 0px 2px 8px 0px; */
+  background-color: #de350a;
+}
+.card6 {
+  /* box-shadow: #8992a4 0px 2px 8px 0px; */
+  background-color: #8992a4;
+}
+.card7 {
+  /* box-shadow: #008ca6 0px 2px 8px 0px; */
+  background-color: #008ca6;
+}
+.carderror {
+  padding: 34px;
+  box-shadow: #f5f5f5 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.percentage {
+  padding-left: 5px;
+  font-size: 11px;
+}
+.carderror > div {
+  padding: 4px;
+}
+.errorAlign {
+  text-align: center;
+  overflow: hidden;
+  height: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.errorAlign .text {
+  max-width: 90px;
+}
+.errorFont {
+  font-size: 12px;
+  font-weight: bold;
+}
+.lastRow {
+  display: inline-block;
+}
+.daysrow {
+  /* float: right; */
+  text-align: right;
+  width: 100%;
+}
+.loaderchart svg {
+  height: 40px;
+  width: 80px;
+}
+.infocont{
+  display: inline-flex;
+}
+#TooltipExampleinfo{
+  margin: -1px 0 0 5px;
+}
+.dataShowtooltip{
+  font-size: 12px;
+}

@@ -1,0 +1,10 @@
+.livestat {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+.livestatelay > div {
+  padding-bottom: 20px;
+}
+.livestatelay > div:last-child {
+  padding-bottom: 0px;
+}

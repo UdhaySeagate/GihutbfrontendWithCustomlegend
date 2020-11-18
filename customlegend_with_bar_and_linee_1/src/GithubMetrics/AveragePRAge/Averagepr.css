@@ -1,0 +1,72 @@
+.averagepr-wrapper {
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+}
+.headerdiv {
+  padding: 10px 0px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.headerlable {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.chartdata {
+  margin: -10px;
+  padding-bottom: 20px;
+}
+.daterangepr {
+  text-align: right;
+}
+.daterangepr .btn {
+  font-size: 10px;
+}
+.toolTip {
+  border: 1px solid lightgray;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #4f4f4f;
+}
+
+.toolTip > span {
+  padding: 0px 10px 0px 10px;
+  display: block;
+  color: #f2f2f2;
+  font-size: 11px;
+}
+
+.toolTip > span:first-child {
+  padding-top: 5px;
+}
+.toolTip > span:last-child {
+  padding-bottom: 5px;
+}
+.chartdata .c3-axis.c3-axis-x > .tick:last-of-type {
+  /* opacity: 0 !important; */
+}
+
+.chartdata .c3-axis.c3-axis-x > .tick:first-of-type {
+  /* opacity: 1 !important; */
+}
+
+.chartdata .c3-axis.c3-axis-x > .tick text {
+  /* display: block !important; */
+}
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+.chartdata .c3 svg {
+  width: 600px;
+  margin-left: 20px;
+}
+
+.averagepr-wrapper .c3-axis-x-label {
+  transform: translate(0px, 15px);
+}
+.averagepr-wrapper .c3-legend-item {
+  transform: translate(0px, 8px);
+}

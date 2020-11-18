@@ -1,0 +1,89 @@
+.totalaction {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  /* box-shadow: lightgray 0px 2px 8px 0px; */
+}
+.totalaction .row {
+  padding: 11px;
+}
+.daystotalaction {
+  font-size: 12px !important;
+  /* width: 100%; */
+  text-align: right;
+  margin-bottom: -24px;
+  font-weight: bold;
+  margin-right: -12px;
+}
+.totalaction span {
+  /* padding-top: 5px; */
+  display: block;
+  color: black;
+  font-size: 16px;
+}
+.totalaction > div {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.imgactions {
+  width: 46px;
+  height: 47px;
+  float: right;
+  border-radius: 24px;
+  padding: 5px;
+}
+.clones {
+  background-color: #bf2600;
+}
+.relase {
+  background-color: #0647a6;
+}
+.commits {
+  background-color: #008ca6;
+}
+.merged {
+  background-color: #ff8b00;
+}
+.relase img {
+  padding: 5px 5px 0px 4px;
+}
+.clones img {
+  padding: 7px 6px 0px 5px;
+}
+.commits img {
+  padding-top: 9px;
+}
+.merged img {
+  padding: 5px 5px 0px 4px;
+}
+.countValue {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+.totalActionError {
+  padding: 16px;
+}
+.totalActionError > div {
+  padding: 2px;
+}
+.actionLoaderTop {
+  margin-top: -8px;
+  /* margin-bottom: 10px; */
+}
+
+.branch {
+  font-size: 14px !important;
+  font-weight: bold;
+  display: inline-block !important;
+}
+
+.totalaction .cloneinfocont{
+  display: inline-flex;
+}
+
+.totalaction .cloneinfocont img{
+  margin: 3.5px 0 0 5px;
+}
+#TooltipExampleaction{
+  float: right;
+}
